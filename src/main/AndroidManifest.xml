@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="niebles.materialapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".frontEnd.MarvelApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/applogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <provider
+            android:name=".contentProvider.ProviderComics"
+            android:authorities="niebles.materialapp.contentProvider.ContentProviderComics"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".frontEnd.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".frontEnd.Profile"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".frontEnd.ComicSelect"
+            android:theme="@style/comicSelect" />
+
+        <activity
+            android:name=".frontEnd.Favorites"
+            android:theme="@style/comicSelect" />
+
+        <activity
+            android:name=".frontEnd.SearchComics"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".frontEnd.PersonalProfile"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".frontEnd.EditinfoProfile"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".frontEnd.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

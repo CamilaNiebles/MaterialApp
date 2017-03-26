@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+    </style>
+
+    <style name="AppTheme" parent="BaseTheme"></style>
+
+    <style name="comicSelect" parent="BaseTheme">
+        <item name="android:textColorPrimary">@color/primary_dark</item>
+        <item name="android:textColorSecondary">@color/icons</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:background">@color/comicSelect</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <style name="MyButtonTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@color/primary_dark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

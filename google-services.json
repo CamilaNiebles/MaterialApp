@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "356563675977",
+    "firebase_url": "https://marvelapp-ddc48.firebaseio.com",
+    "project_id": "marvelapp-ddc48",
+    "storage_bucket": "marvelapp-ddc48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356563675977:android:25bd38fbfd217240",
+        "android_client_info": {
+          "package_name": "niebles.materialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356563675977-8r6s7kmafak4otucqvr4eva34gmctui3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "niebles.materialapp",
+            "certificate_hash": "47fba41cc949e41d6db32ee718a44e2526360f65"
+          }
+        },
+        {
+          "client_id": "356563675977-r8pn1ncvsnv6cdv0e1laua5m4efggq4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASoFg_mI0l-epy1I_Li4wlO1noS42V3jQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356563675977-r8pn1ncvsnv6cdv0e1laua5m4efggq4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
